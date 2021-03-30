@@ -1,3 +1,5 @@
+<?php include ("header.php"); ?>
+<hr>
 <?php
   $chi = 90;
   $eng = 95;
@@ -7,3 +9,4 @@
   $avg = $total / 4;
   echo "Total is $total, Average is $avg";
 ?>
+<?php include ("footer.php"); ?>
